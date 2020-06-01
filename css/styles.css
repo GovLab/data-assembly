@@ -47,6 +47,7 @@ text-align:center;
 }
 .hero h1{
   margin:4rem 0 0 0;
+  text-align:center;
   text-transform: uppercase;
   font-weight: 300;
   font-size: 3rem;
@@ -155,4 +156,151 @@ padding-bottom:2rem;
   background-color: rgba(97, 81, 30, 0.226);
   color: #00000083;
   cursor: pointer;
+}
+
+#team {
+  background-color: var(--theme-blue);
+}
+#team h2{
+  color: #ffffff;
+}
+.team{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2rem 12rem;
+}
+.image{
+  flex-direction: column;
+ 
+text-align: center;
+  align-items: center;
+  
+}
+
+.image img{
+width: auto;
+  height: 110%;
+}
+.image h4{
+  color: var(--theme-blue);
+  margin-bottom:0;
+}
+.image h5{
+  color: var(--theme-grey);
+  margin:0;
+}
+.image .square{
+  display: inline-block;
+  position: relative;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50%;
+  border: 4px solid var(--theme-blue);
+}
+
+.signup{
+  background-color: var(--theme-blue);
+  display: flex;
+  height:10vh;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+input[type=text]{
+  padding: 10px 10px;
+  font-size: 0.8rem;
+  display: inline-block;
+  border: none;
+  color: #ffffff;
+  background-color:#ffffff67;
+  border-radius: 0px;
+  box-sizing: border-box;
+}
+::placeholder {
+  color: rgba(255, 255, 255, 0.541);
+  font-weight: 600;
+}
+button{
+  background-color: var(--theme-yellow);
+  border: none;
+  color: rgb(33, 37, 41);
+  padding: 10px 25px;
+  text-align: center;
+  font-size:0.8rem;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+#partners{
+  background-color: #3d3d3d;
+}
+#partners h2{
+  color:#ffffff4b;
+}
+.partners{
+display:flex;
+flex-direction: row;
+background-color: #3d3d3d;
+padding: 2rem 12rem;
+}
+.box{
+  display:flex;
+  flex-direction: column;
+  padding:2rem;
+}
+#text{
+  width: 60%;
+  line-height: 1.5;
+  
+}
+#text p{
+  font-weight: 200;
+  color: #ffffffd3;
+  margin-top:0;
+}
+#text h4{
+  margin:10px 0;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #ffffff67;
+}
+#logos{
+  width: 40%;
+}
+.p-image{
+  display:flex;
+  height: 33%;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem 0;
+}
+.p-image img{
+  width: 40%;
+}
+footer{
+  background-color: var(--theme-grey);
+}
+.col{
+  justify-content: center;
+  align-items: center;
+
+}
+.col h4{
+  color: var(--theme-yellow);
+}
+.col a{
+padding-right: 15px;
+color: #ffffff;
+}
+.col p{
+  color:#ffffff;
+  font-weight: 300;
+}
+.fa{
+color: var(--theme-yellow);
 }
