@@ -49,7 +49,7 @@ text-align:center;
   margin:4rem 0 0 0;
   text-align:center;
   text-transform: uppercase;
-  font-weight: 300;
+  font-weight: 100;
   font-size: 3rem;
 }
 .hero a{
@@ -80,10 +80,10 @@ cursor: pointer;
 }
 #phases{
   padding: 0 16rem;
-  background-color: rgb(97, 81, 30);
+  background-color:var(--theme-yellow);  
 }
 #phases h2{
-  color: var(--theme-yellow);
+  color: rgb(97, 81, 30);
 }
 .about-section{
   padding-top:2rem;
@@ -98,11 +98,11 @@ cursor: pointer;
   width: 30%;
   padding: 20px 40px;
 }
-.about-icon img{
+.about-icon img{ 
   height: 100px;
 }
 .phase1{
-  background-color:var(--theme-yellow);
+  background-color:rgba(222, 192, 94, 0.301);
 
 }
 .row{
@@ -140,15 +140,15 @@ cursor: pointer;
 .button{
 width:100%;
 text-align: center;
-background-color: var(--theme-yellow);
+background-color:rgba(222, 192, 94, 0.034);
 padding-bottom:2rem;
 }
 .button a{
   padding:1rem;
   border:0;
   text-transform: uppercase;
-  background-color: rgb(97, 81, 30);
-  color: var(--theme-yellow);
+  background-color: var(--theme-yellow); 
+  color: rgb(97, 81, 30);
   font-weight: 500;
   font-size:1rem;
 }
@@ -169,7 +169,7 @@ padding-bottom:2rem;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  margin: 2rem 12rem;
+  margin: 2rem 10rem;
 }
 .image{
   flex-direction: column;
