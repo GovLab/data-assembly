@@ -115,9 +115,11 @@ nav.sticky ul li{
 
   #navbar
   {
-    height: 180px;
-    display: none;
+    z-index:1000;
+    height: 100px;
+    display: block;
   }
+
   .topnav-m a.icon {
     float: right;
     display: flex;
@@ -153,7 +155,7 @@ nav.sticky ul li{
   margin:0;
   }
   #navbar a {
-    color: #ffffff;
+    color: #000000;
     display:flex;
     padding: 1em 1em 1em 1em;
   }
