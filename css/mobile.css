@@ -54,6 +54,25 @@
     footer{
         text-align:center;
     }
+    .form-row{
+        display:flex;
+        flex-direction: column;
+      }
+      .signup{
+          height:50vh;
+      }
+      input[type=text]{
+          text-align:center;
+          margin: 10px 0;
+          padding: 10px 100px;
+      }
+      .large-text input[type=text]{
+        
+        margin:10px 0;
+      }
+      textarea{
+margin-top:10px;
+      }
 }
 @media screen and (min-width: 781px) and (max-width: 1200px){
     .hero{
