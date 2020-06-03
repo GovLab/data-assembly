@@ -347,3 +347,12 @@ color: #ffffff;
 .fa{
 color: var(--theme-yellow);
 }
+
+.privacy-statement p{
+  color: #ffffff;
+  font-weight: 100;
+}
+.privacy-statement a{
+  color: var(--theme-yellow);
+  font-weight: 400;
+}
