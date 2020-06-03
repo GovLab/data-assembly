@@ -204,8 +204,8 @@ width: auto;
 .signup{
   background-color: var(--theme-blue);
   display: flex;
-  height:10vh;
-  flex-direction: row;
+  height:15vh;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   
@@ -235,7 +235,10 @@ button{
   cursor: pointer;
   font-weight: 600;
 }
-
+.signup h2{
+  margin-top:0;
+  color: #ffffff;
+}
 #partners{
   background-color: #3d3d3d;
 }
