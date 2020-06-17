@@ -212,7 +212,7 @@ width: auto;
   height: 300px;
   padding: 10px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
-  background-color: #523080;
+  background-color: var(--theme-blue);
 }
 p#quote{
 color: #ffffff;
