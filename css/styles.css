@@ -265,6 +265,7 @@ input[type=text]{
   background-color:#ffffff67;
   border-radius: 0px;
   box-sizing: border-box;
+  width: 100%;
 }
 textarea{
   padding: 10px 10px;
@@ -298,6 +299,11 @@ textarea{
   width: 100%;
 }
 .large-text input[type=text]{
+  padding: 10px 100px;
+  margin:20px 0;
+  width: 100%;
+}
+.large-text input[type=textarea]{
   padding: 10px 100px;
   margin:20px 0;
 }
