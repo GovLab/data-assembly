@@ -201,7 +201,43 @@ width: auto;
   border-radius: 50%;
   border: 4px solid var(--theme-blue);
 }
-
+#slideshow {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 80px auto;
+  position: relative;
+  width: 800px;
+  height: 300px;
+  padding: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+  background-color: #523080;
+}
+p#quote{
+color: #ffffff;
+font-weight: 300;
+}
+p#quote-name{
+  color: #ffffff;
+  font-weight: 400;
+  margin-bottom:0;
+  }
+  p#quote-org{
+    margin-top:0;
+    color: #ffffff7e;
+    font-weight: 100;
+    }
+#slideshow > div {
+  padding:40px;
+  position: absolute;
+}
+#slideshow img{
+  position: absolute;
+  margin-top:20px;
+  top:0;
+  height:60px;
+}
 .signup{
   background-color: var(--theme-blue);
   display: flex;
