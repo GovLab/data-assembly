@@ -52,8 +52,15 @@
     </ul>
   </nav>
 </header>
+<div id="alert-msg" class="alert">
+  <div class="alert-content">
+  <p class="text-alert">PRESS RELEASE <br><span id="sub-text">Starting with NYC, new initiative weighs pros and cons of data re-use for COVID-19 and future threats. <a href="https://engineering.nyu.edu/news/starting-nyc-new-initiative-weighs-pros-and-cons-data-re-use-covid-19-and-future-threats" id="text-link" target="_blank">Click here</a> to learn more.</span></p>
 
+  <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+</div>
+</div>
 <body>
+
   <div id="intro" class="hero">
 
     <h1>PUBLIC DELIBERATION ON THE RE-USE OF DATA</h1>
@@ -146,6 +153,7 @@
     </div>
   </div>
   <div id="quotes">
+
     <div id="slideshow">
       <img src="img/format_quote-24px.svg">
       <div>
@@ -360,7 +368,14 @@
   });
 
 </script>
-
+<script>
+  $(document).ready(function(){
+    var alert_msg = document.getElementById("alert-msg");
+    $(".close").click(function(){
+      alert_msg.style.display = "none";
+    });
+  });
+  </script>
 <script>/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
   $('h2#phase-item').click(function () {
     $('h2#phase-item').addClass('inactive');

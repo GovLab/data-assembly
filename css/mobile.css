@@ -5,6 +5,19 @@
         background-repeat: no-repeat;
         background-size: cover;
     }
+    .alert-content{
+        margin: 2rem;
+        height: 15vh;
+        background-color: var(--theme-blue);
+        border-radius: 25px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+      }
+      .text-alert{
+        margin-left: 20px;
+      }
     .about-section{
         flex-direction: column;
     }

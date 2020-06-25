@@ -8,6 +8,7 @@
 body {
   margin: 0;
   font-family: 'proxima-nova', sans-serif;
+
 }
 
 header{
@@ -58,6 +59,53 @@ text-align:center;
   text-decoration: none;
 }
 
+.alert{
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  z-index: 10000;
+  
+}
+.alert-content{
+  margin: 2rem;
+  height: 10vh;
+  background-color: var(--theme-blue);
+  border-radius: 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.close{
+width: 10%;
+text-align: right;
+margin-right: 20px;
+}
+a.close{
+  font-size: 2rem;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.61);
+}
+.text-alert{
+  text-align: center;
+  width:90%;
+}
+p.text-alert{
+  color: rgba(255, 255, 255, 0.514);
+  font-weight: 600;
+  font-size: 1.2rem;
+  
+}
+#sub-text{
+  color: white;
+  font-weight: 300;
+  font-size: 1rem;
+}
+a#text-link{
+color: var(--theme-yellow);
+text-decoration: none;
+font-weight: 400;
+}
 .separator{
   background-color: var(--theme-yellow);
   height:10vh;
