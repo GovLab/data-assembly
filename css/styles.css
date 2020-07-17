@@ -447,3 +447,18 @@ color: var(--theme-yellow);
   color: var(--theme-yellow);
   font-weight: 400;
 }
+.about-org{
+  padding: 1rem 12rem;
+}
+.about-org h2{
+  text-transform: uppercase;
+  color: var(--theme-blue);
+  margin-bottom:0.5rem;
+  margin-top: 1.8rem;
+}
+.about-org h3{
+  margin-top:0;
+  margin-bottom: 1.25rem;
+font-weight: 300;
+line-height: 1.5;
+}

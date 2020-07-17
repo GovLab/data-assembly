@@ -90,6 +90,10 @@ margin-top:10px;
 width: 90%;
 height: 400px;
       }
+
+      .about-org{
+          padding: 2rem 1rem;
+      }
 }
 @media screen and (min-width: 781px) and (max-width: 1200px){
     .hero{
@@ -131,5 +135,7 @@ height: 400px;
     .box{
         padding:0;
     }
-
+    .about-org{
+        padding: 2rem 4rem;
+    }
 }
