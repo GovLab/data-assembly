@@ -8,7 +8,7 @@
 body {
   margin: 0;
   font-family: 'proxima-nova', sans-serif;
-
+overflow-x: hidden;
 }
 
 
@@ -248,13 +248,34 @@ cursor: pointer;
 .about-section{
   padding:2rem 8rem;
   display:flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-evenly;
 }
 .about-section p{
   font-weight:400;
   font-size: 1.2rem;
   line-height: 2;
+}
+.frame-section{
+  padding:2rem 8rem;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  background-color:var(--theme-yellow); 
+}
+.frame-section p{
+  font-weight:400;
+  font-size: 1.2rem;
+  line-height: 1.4;
+  margin:0;
+  color: #040A1C;
+}
+.frame-section h2{
+  font-weight:800;
+  text-transform: uppercase;
+  margin:0rem 0 1rem 0;
+  color: #040A1C;
 }
 .about-element{
   display:flex;
@@ -318,7 +339,9 @@ background-color: #ffffff;
   justify-content: center;
   align-items: center;
   width:20%;
+  padding: 0 2rem;
 }
+
 .recco-text{
   display: flex;
   flex-direction: column;
@@ -330,7 +353,7 @@ background-color: #ffffff;
   text-align: right;
 }
 .recco-img img{
-  height: 200px;
+  height: 140px;
 }
 .recco-row.alt h2{
   color: #133165;
@@ -454,10 +477,12 @@ p#quote-name{
 .signup{
   background-color: var(--theme-blue);
   display: flex;
-  height:50vh;
+  height:70vh;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 0 8rem;
+  text-align: center;
 }
 .wheel{
   background-color: #133165;
@@ -590,6 +615,7 @@ button{
 }
 .signup h2{
   margin-top:10px;
+  margin-bottom:0;
   color: #ffffff;
 }
 #partners{

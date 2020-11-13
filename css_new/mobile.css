@@ -46,7 +46,10 @@ overflow: hidden;
 
       .recco-img{
         width:100%;
-
+        padding: 2rem 1rem;
+      }
+      .recco-img img{
+          height: 100px;
       }
       .recco-text{
 
@@ -125,7 +128,8 @@ overflow: hidden;
         flex-direction: column;
       }
       .signup{
-          height:50vh;
+          height:70vh;
+          padding: 0 1rem;
       }
       input[type=text]{
           text-align:center;

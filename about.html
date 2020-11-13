@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-40012093-27"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-40012093-27');
+</script>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+  content="The Data Assembly is an initiative from The GovLab with support from the Henry Luce Foundation to solicit diverse, actionable public input on data re-use for crisis response in the United States." />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="The Data Assembly | The GovLab" />
+<meta property="og:description"
+  content="The Data Assembly is an initiative from The GovLab with support from the Henry Luce Foundation to solicit diverse, actionable public input on data re-use for crisis response in the United States." />
+<meta property="og:image" content="img/data-assembly-logo-color.png" />
+  <title>The Data Assembly</title>
+
+  <link href="/images/favicon.ico" rel="shortcut icon">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css_new/navbar.css">
+  <link rel="stylesheet" href="css/mobile.css">
+  <link rel="stylesheet" href="https://use.typekit.net/kad3hcl.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<header>
+  <!-- Top Navigation Menu -->
+  <div class="topnav">
+
+    <a href="#">
+      <img src="img/data-assembly-logo-color.png" alt="The Data Assembly Logo">
+    </a>
+
+    <!-- Navigation links (hidden by default) -->
+
+    <div class='lang-select'>
+      
+    </div>
+    <div class="menu-bars">
+      <div class="bar-wrap">
+        <a href="javascript:void(0);" class="icon" onclick="myMenu()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div id="myLinks">
+    <div class="menu-items">
+      <div class="menu-sub" onclick="dismiss_menu()"><a href="index.html">Home</a></li></div>
+      <div class="menu-sub" onclick="dismiss_menu()"><a href="about.html">About</a></li></div>
+      <div class="menu-sub" onclick="dismiss_menu()"><a href="files/nyc-data-assembly-report.pdf">Synthesis Report</a></li></div>
+      <div class="menu-sub" onclick="dismiss_menu()"><a href="#framework">Responsible Re-Use Framework</a></li></div>
+      <div class="menu-sub" onclick="dismiss_menu()"><a href="#team">Team</a></li></div>
+      <div class="menu-sub" onclick="dismiss_menu()"><a href="files/nyc-data-assembly-report.pdf">Briefing Deck</a></li></div>
+      <div class="menu-sub" onclick="dismiss_menu()"><a href="#contact">Get in Touch</a></li></div>
+
+
+    </div>
+
+  </div>
+</header>
+<div id="alert-msg" class="alert">
+  <div class="alert-content">
+  <p class="text-alert">EVENT: OCTOBER 14TH<br><span id="sub-text">The Data Assembly NYC Expert Panel and Live Virtual Town Hall. Learn more and register <a href="https://www.eventbrite.com/e/the-data-assembly-expert-panel-and-live-virtual-town-hall-tickets-124137449453" id="text-link" target="_blank">here</a>.</span></p>
+
+  <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+</div>
+</div>
+<body>
+
+  <div id="intro" class="hero">
+
+    <h1>PUBLIC DELIBERATION ON THE RE-USE OF DATA</h1>
+    <h3>The Data Assembly is an initiative from <a href="http://thegovlab.org">The GovLab</a> with support from the <a href="https://www.hluce.org">Henry Luce Foundation</a>
+      to solicit diverse, actionable public input on data re-use for crisis response in the United States.</h3>
+
+  </div>
+  <div class="separator" id="about">
+    <h2>ABOUT</h2>
+  </div>
+  <div class="about-section">
+    <div class="about-element">
+      <div class="about-icon">
+        <img src="img/collaborate.png">
+      </div>
+      <div class="about-text">
+        <p>The Data Assembly is a collaboration between citizens, civil rights organizations, key data holders and
+          policymakers.</p>
+      </div>
+    </div>
+    <div class="about-element">
+      <div class="about-icon">
+        <img src="img/nyc.png">
+      </div>
+      <div class="about-text">
+        <p>Our work will commence with a focus on New York City, with the intent of expanding to other cities, states,
+          or the federal level.</p>
+      </div>
+    </div>
+    <div class="about-element">
+      <div class="about-icon">
+        <img src="img/virus.png">
+      </div>
+      <div class="about-text">
+        <p>Our initial focus will be data re-use for COVID-19 measures, but our results will be applicable beyond the
+          pandemic.</p>
+      </div>
+    </div>
+  </div>
+  <div class="separator" id="phases">
+    <h2 id="phase-item">PHASE 1</h2>
+    <h2 class="inactive" id="phase-item">PHASE 2</h2>
+    <h2 class="inactive" id="phase-item">PHASE 3</h2>
+  </div>
+  <div id="phase1" class="phase1">
+    <div class="row">
+      <div class="phase-img">
+        <img src="img/phase1.png">
+      </div>
+      <div class="phase-text">
+        <h4>PHASE 1</h4>
+        <h2>IDENTIFYING PROBLEMS</h2>
+        <p>Through the use of online deliberations and surveys, the Data Assembly will seek to highlight existing
+          problems, possible concerns, and benefits they associate with data re-use. At the end of this process, there
+          will be a map of challenges and expectations curated and ranked by the Data Assembly.</p>
+      </div>
+    </div>
+    <div class="button">
+      <a style="text-decoration: none;" href="files/TheDataAssembly2-Pager.pdf" target="_blank">Download our two-pager</a>
+    </div>
+  </div>
+  <div id="phase2" class="phase1 hide">
+    <div class="row">
+      <div class="phase-img">
+        <img src="img/phase2.png">
+      </div>
+      <div class="phase-text">
+        <h4>PHASE 2</h4>
+        <h2>CREATING SOLUTIONS</h2>
+        <p>The Data Assembly will collectively ideate and co-design solutions to the problems identified in Phase 1. This ideation process will take place through an online crowdsourcing tool, complemented with other outreach mechanisms, which will allow participants to post their own solutions, up-vote or down-vote ideas posted by others, and provide comments and build upon other participants’ submissions.</p>
+      </div>
+    </div>
+    <div class="button">
+      <a style="text-decoration: none;" href="files/TheDataAssembly2-Pager.pdf" target="_blank">Download our two-pager</a>
+    </div>
+  </div>
+  <div id="phase3" class="phase1 hide">
+    <div class="row">
+      <div class="phase-img">
+        <img src="img/phase3.png">
+      </div>
+      <div class="phase-text">
+        <h4>PHASE 3</h4>
+        <h2>SHARING FINDINGS</h2>
+        <p>The GovLab will review proposed solutions developed in the previous phase. Using these as a basis we will prepare a framework that will be presented and discussed during a live, online town hall meeting.</p>
+      </div>
+    </div>
+    <div class="button">
+      <a style="text-decoration: none;" href="files/TheDataAssembly2-Pager.pdf" target="_blank">Download our two-pager</a>
+    </div>
+  </div>
+  <div id="quotes">
+
+    <div id="slideshow">
+      <img src="img/format_quote-24px.svg">
+      <div>
+        <p id="quote">Too often, policy is designed and conducted in a top-down manner, with little citizen input. We believe this more inclusive effort will yield trusted and effective data policies in the fight against COVID-19.</p>
+        <p id="quote-name">Dr. Mariko Silver</p>
+        <p id="quote-org">President and Chief Executive Officer of the Henry Luce Foundation</p>
+      </div>
+      <div>
+        <p id="quote">If used responsibly and effectively, data could help to mitigate the impacts of COVID-19, but to unlock data’s value, we need to rapidly get smarter about the policy and governance challenges resulting from re-using data; as well what public expectations are.</p>
+        <p id="quote-name">Stefaan Verhulst</p>
+        <p id="quote-org">Co-Founder and Chief Research and Development Officer of The GovLab</p>
+      </div>
+      <div>
+        <p id="quote">Data is increasingly the primary format for sharing information to understand crises and plan recovery efforts; empowering everyone to better understand how data is collected and how it should be used is paramount. We look forward to learning from the insights gathered by the GovLab through the Data Assembly work they are conducting in New York City.</p>
+        <p id="quote-name">Adrienne Schmoeker</p>
+        <p id="quote-org">Director of Civic Engagement & Strategy and Deputy Chief Analytics Officer, NYC Mayor's Office of Data Analytics</p>
+      </div>
+      <div>
+        <p id="quote">We are now witnessing generation-defining civil liberties struggles erupt across America. A central thread running through all debates: communities—especially those have been long oppressed—are rightly demanding "nothing about us without us.” Community voices have been critical in bringing greater awareness to complex policy issues, and in winning long-overdue reforms.</p>
+        <p id="quote-name">Panthea Lee</p>
+        <p id="quote-org">Executive Director of Reboot</p>
+      </div>
+      <div>
+        <p id="quote">Discussions on data governance—which have urgent and heightened importance during the pandemic—have typically been deemed to be beyond the interest or understanding of the general public, and thus dominated by technical “experts”. But the questions under consideration will impact us all, and thus require broad discussion and deliberation. The Data Assembly is an important and timely effort to advance this conversation.</p>
+        <p id="quote-name">Panthea Lee</p>
+        <p id="quote-org">Executive Director of Reboot</p>
+      </div>
+      <div>
+        <p id="quote">Technology is reshaping cities, their services, and their public spaces. It's key for residents to feel that they both understand and have a voice in that change. We have to raise the bar on civic engagement when it comes to data and technology innovations in our communities.</p>
+        <p id="quote-name">Denise Riedl</p>
+        <p id="quote-org">Chief Innovation Officer for South Bend, IN and a Fellow with the Benton Institute</p>
+      </div>
+      <div>
+        <p id="quote">Resolving social trade-offs requires that many different voices be heard. This may sound radical, but it is in fact the original lesson of democracy: Citizens should have a say.</p>
+        <p id="quote-name">Federica Carugati</p>
+        <p id="quote-org">Program Director, Center for Advanced Study in the Behavioral Sciences at Stanford University</p>
+      </div>
+      
+   </div>
+  </div>
+  <div class="separator" id="team">
+    <h2>TEAM</h2>
+  </div>
+
+    <div class="team">
+      <div class="image">
+        <div class="square">
+          <img src="img/team/stefaan-verhulst.jpg">
+        </div>
+        <h4>Stefaan Verhulst</h4>
+        <h5>Co-Founder and Chief R&D Officer<br>The GovLab</h5>
+      </div>
+    <div class="image">
+      <div class="square">
+        <img src="img/team/badavi-headshot.jpg">
+      </div>
+      <h4>Mary Ann Badavi</h4>
+      <h5>Research Intern, The GovLab</h5>
+    </div>
+    <!-- <div class="image">
+      <div class="square">
+        <img src="img/team/danuta-egle.jpg">
+      </div>
+      <h4>Danuta Egle</h4>
+      <h5>Research Intern, The GovLab</h5>
+    </div> -->
+    <div class="image">
+      <div class="square">
+        <img src="img/team/nadiya.jpeg">
+      </div>
+      <h4>Nadiya Safonova</h4>
+      <h5>Research Assistant, The GovLab</h5>
+    </div>
+  </div>
+    <div class="team">
+    <div class="image">
+      <div class="square">
+        <img src="img/team/michelle-winowatan.jpg">
+      </div>
+      <h4>Michelle Winowatan</h4>
+      <h5>Research Assistant, The GovLab</h5>
+    </div>
+    <div class="image">
+      <div class="square">
+        <img src="img/team/andrew-young.jpg">
+      </div>
+      <h4>Andrew Young</h4>
+      <h5>Knowledge Director, The GovLab</h5>
+    </div>
+    <div class="image">
+      <div class="square">
+        <img src="img/team/andrew-zahuranec.jpg">
+      </div>
+      <h4>Andrew J. Zahuranec</h4>
+      <h5>Research Fellow, The GovLab</h5>
+    </div>
+  </div>
+
+  </div>
+  <div class="signup">
+    <h2>JOIN US</h2>
+    <script type="text/javascript">var submitted=false;</script>
+    <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"
+      onload="if(submitted) {confirm()}">
+    </iframe>
+    <form name="subscribe form" class="custom-form"
+      action="https://docs.google.com/forms/d/e/1FAIpQLScQez93M-9EDTO9AYbgFlBpbxExDB4ago7yLADOBZwS9VWCOg/formResponse"
+      method="post" target="hidden_iframe" onsubmit="submitted=true;" aria-label="form to subscribe">
+      <div class="form-row">
+      <input style="margin-right:10px" type="text" placeholder="NAME*" name="entry.1464040957" aria-hidden=”true”>
+      <input type="text" placeholder="AFFILIATION" name="entry.1706791257" aria-hidden=”true”>
+     
+    </div>
+    <div class="form-row large-text">
+      <input type="text" placeholder="EMAIL ADDRESS*" name="entry.865215628" aria-hidden=”true”>
+      </div>
+      <div class="form-row large-text">
+      <textarea cols="40" rows="5" placeholder="Why you’re interested in joining The Data Assembly*" name="entry.1859585578" aria-hidden=”true”></textarea>
+
+      </div>
+      <div class="form-row">
+      <button name="subscribe form button" class="form-button" type="submit" aria-hidden=”true”>SIGN UP</button>
+      </div>
+    </form>
+    <p>* indicates required fields</p>
+    <p id="thankyou">Thank you for your submission!</p>
+  </div>
+  <div class="separator" id="partners">
+    <h2>PARTNER ORGANIZATIONS</h2>
+  </div>
+  <div class="partners">
+    <div class="box" id="logos">
+      <div class="p-image"><img src="img/partners/govlab-logo-white-transpose.png"></div>
+      <div class="p-image"><img src="img/partners/logo-hluce.png"></div>
+      <div class="p-image"><img src="img/partners/tandon_long_white.png"></div>
+    </div>
+    <div class="box" id="logos">
+      
+      <div class="p-image"><img src="img/partners/bpl.png"></div>
+      <div class="p-image"><img src="img/partners/nypl.png"></div>
+    </div>
+  </div>
+  <div class="about-org">
+    <h2>The Governance Lab</h2>
+    <h3>The Governance Lab's mission is to improve
+      people's lives by changing the way we govern.
+      Our goal at The GovLab is to strengthen the ability
+      of institutions — including but not limited to
+      governments — and people to work more openly,
+      collaboratively, e!ectively, and legitimately to
+      make better decisions and solve public problems.
+      We believe that increased availability and use of
+      data, new ways to leverage the capacity,
+      intelligence, and expertise of people in the
+      problem-solving process, combined with new
+      advances in technology and science, can
+      transform governance. We approach each
+      challenge and opportunity in an interdisciplinary,
+      collaborative way, irrespective of the problem,
+      sector, geography, and level of government. For
+      more information, visit thegovlab.org.</h3>
+    <h2>Henry Luce Foundation</h2>
+    <h3>The Henry Luce Foundation seeks to enrich public
+      discourse by promoting innovative scholarship,
+      cultivating new leaders, and fostering international
+      understanding. The Foundation advances its
+      mission through grantmaking and leadership
+      programs in the fields of Asia, higher education,
+      religion and theology, art, and public policy.
+
+      Established in 1936 by Henry R. Luce, the co-
+      founder and editor- in-chief of Time, Inc., the
+
+      Foundation’s earliest work honored his parents,
+      missionary educators in China. The Foundation’s
+      programs today reflect the value Mr. Luce placed
+      on learning, leadership, and long-term
+      commitment in philanthropy.</h3>
+  </div>
+</body>
+<footer>
+  <div class="row">
+    <div class="col">
+        <h4>CONTACT US</h4>
+        <p>The GovLab <br> NYU Tandon School of Engineering<br>2 MetroTech Center, 9th Floor<br>Brooklyn, NY 11201</p>
+    </div>
+    <div class="col">
+      <h4><br></h4>
+        <p><i class="e-social-media-item fa fa-phone"></i>&nbsp (646) 997-3150</p>
+        <a><i class="e-social-media-item fa fa-envelope"></i>&nbsp info@thegovlab.org</a>
+    </div>
+    <div class="col">
+        <h4>FOLLOW US</h4>
+        <a href="https://twitter.com/TheGovLab" target="_blank"><i class="e-social-media-item fa fa-twitter" aria-hidden="true"></i></a>
+        <a href="https://www.facebook.com/thegovlab/" target="_blank"><i class="e-social-media-item fa fa-facebook" aria-hidden="true"></i></a>
+        <a href="https://www.linkedin.com/company/3288504" target="_blank"><i class="e-social-media-item fa fa-linkedin" aria-hidden="true"></i></a>
+    </div>
+  </div>
+  <div class="row privacy-statement">
+<p>The GovLab is committed to respecting your privacy and abides by all the practices and principles outlined by New York University in its Digital Privacy Statement. For more information, please review the full statement <a href="https://www.nyu.edu/footer/copyright-and-fair-use/digital-privacy-statement.html" target="_blank">here.</a></p>
+  </div>
+</footer>
+
+<script src="js/navbar.js"></script>
+<script src="js/slider.js"></script>
+<script>
+  /* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
+  function myMenu() {
+    var x = document.getElementById("myLinks");
+    if (x.style.display === "block") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "block";
+    }
+  }
+</script>
+<script>
+  /* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
+  function dismiss_menu() {
+    var x = document.getElementById("myLinks");
+    x.style.display = "none";
+  }
+</script>
+<script>
+  $(document).ready(function(){
+    var alert_msg = document.getElementById("alert-msg");
+    $(".close").click(function(){
+      alert_msg.style.display = "none";
+    });
+  });
+  </script>
+<script>/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+  $('h2#phase-item').click(function () {
+    $('h2#phase-item').addClass('inactive');
+    $(this).removeClass('inactive');
+    if ($('h2#phase-item').index(this) == '0') {
+      console.log($('h2#phase-item').index(this));
+      $('#phase1').removeClass('hide');
+      $('#phase2').addClass('hide');
+      $('#phase3').addClass('hide');
+    }
+    if ($('h2#phase-item').index(this) == '1') {
+      console.log($('h2#phase-item').index(this));
+      $('#phase1').addClass('hide');
+      $('#phase2').removeClass('hide');
+      $('#phase3').addClass('hide');
+    }
+    if ($('h2#phase-item').index(this) == '2') {
+      console.log($('h2#phase-item').index(this));
+      $('#phase1').addClass('hide');
+      $('#phase2').addClass('hide');
+      $('#phase3').removeClass('hide');
+    }
+  });
+
+</script>
+<script>
+   function confirm() {
+    var x = document.getElementById("thankyou");
+    
+      x.style.display = "block";
+
+  }
+</script>
+
+</html>
