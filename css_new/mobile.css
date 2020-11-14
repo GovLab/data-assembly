@@ -4,13 +4,18 @@
 flex-direction: column;
 height:100%;
 overflow: hidden;
+padding: 0 1rem;
     }
     .about-section{
         padding:2rem 1rem;
   
       }
+      .frame-section{
+        padding:2rem 1rem;
+     
+      }
     .wheel-svg{
-      margin-left:8rem;
+      margin-left:11rem;
    margin-top:100px;
         width: 100%;
 
@@ -26,8 +31,16 @@ overflow: hidden;
         align-items:center;
         padding:0 1rem;
       }
+      .main-button{
+        display:flex;
+        flex-direction: column;
+      }
+      .btn{
+          margin-right:0;
+          margin-bottom: 10px;
+      }
       svg{
-        transform: scale(1.2);
+        transform: scale(1.4);
       }
       .recco-row{
         display:flex;
